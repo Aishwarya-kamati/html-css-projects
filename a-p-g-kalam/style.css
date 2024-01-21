@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding: 0%;
+
+}
+.container{
+    background-color:burlywood ;
+    min-height: 100%;
+    border: 10px solid black;
+    
+
+}
+.content{
+    max-width:800px;
+    margin: 0 auto;
+    color: black;
+}
+.imag-container img{
+   height:200px;
+   width: 220px;
+   border-radius:50%;
+   overflow: hidden;
+
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+.header-section h4{
+    text-align: end;
+}
+.parg{
+    margin-top: 40px;
+}
+.parg p{
+    line-height:27px;
+    letter-spacing: 1.2px;
+   text-align: justify;
+   
+} 
+.biography{
+   margin-bottom: 40px;
+
+}
+.biography ul{
+   margin-left: 26px;
+
+}
+.biography li{
+    margin-top: 6px;
+    letter-spacing: 1.2px;
+}
+
+fotter {
+  margin-bottom: 50px;
+
+  
+}
+footer p{
+    text-align: end;
+}

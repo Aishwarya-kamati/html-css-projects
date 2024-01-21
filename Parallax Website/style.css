@@ -1,0 +1,59 @@
+html,body{
+    font-family:"Lato", sans-serif; 
+    font-weight: 15px;
+    height: 100%;
+    margin: 0%;
+   }
+
+.fto1{
+    background-image: url(images/image1.png);
+    min-height: 100%;
+}
+.fto2{
+    background-image: url(images/image2.png);
+    min-height:400px;
+}
+.fto3{
+    background-image: url(images/image3.png);
+    min-height: 400px;
+}
+.fto1,.fto2,.fto3{
+     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   background-attachment: fixed;
+}
+.txt{
+    position: absolute;
+    top: 50%;
+   width: 100%;
+    text-align: center;
+    color: white;
+    letter-spacing: 8px;
+    font-weight: 50px;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.txtbc{
+    background-color:#272626;
+    padding:14px;
+
+} 
+.section{
+    text-align: center;
+}
+@media only screen and (max-width:600px){
+    span{
+        text-align: center;
+    }
+    section p{
+        padding: 13px;
+        font-size: 15px;
+    }
+    .fto1 ,.fto2,.fto3{
+     display: flex;
+     justify-content: center;
+    }
+}

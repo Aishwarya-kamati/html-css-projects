@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    background-image: url(images/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 75px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.icon{
+    height: 70px;
+    width: 200px;
+}
+.logo{
+    color: orange;
+    float: left;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.menu{
+    height: 70px;
+    width: 400px;
+    margin-left: 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.search{
+    width: 300px;
+    margin-top: 7px;
+    margin-left: 56px;
+}
+.search input{
+    border: 1px solid orange;
+    background: transparent;
+    width: 201px;
+    color: white;
+    /* border-right: none; */
+  padding: 7px;
+  border-radius: 2px;
+}
+.btn{
+    width: 74px;
+    
+    color: white;
+    background-color: orange;
+    padding: 7px;
+}
+.content{
+    width: 1200px;
+    margin: auto;
+    
+}
+.content h1{
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+.par{
+    line-height: 24px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman';
+}
+.j0in_btn{
+    margin-top: 10px;
+    background-color: orange;
+    border: none;
+    padding: 10px;
+   border-radius: 6px;
+  
+}
+.j0in_btn a{
+   color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+.j0in_btn:hover{
+    border-color: orange;
+    color: white;
+    transition: 0.3s ease-in;
+
+}
+.content span{
+    color: orange;
+}
+.form{
+    width: 246px;
+    height: 320px;
+    /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%); */
+    background-color: black;
+    margin-left: 888px;
+  margin-top: -290px;
+  color: white;
+  padding: 10px;
+}
+.form h2{
+        text-align: center;
+        background-color: white;
+        color: orange;
+        font-size: 22px;
+        padding: 3px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+}
+.form input{
+    background-color: transparent;
+    width: 218px;
+    height: 35px;
+    border-bottom: 1px solid orange;
+    border-left: none;
+ 
+    border-right: none;
+    border-top: none;
+    font-family: Arial;
+    margin-top: 6px;
+  }
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btnn{
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    width: 219px;
+  height: 22px;
+  margin-top: 10px;
+
+}
+.btnn a{
+    color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+.form .link{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.liw{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.link a{
+    text-decoration: none;
+    text-align: center;
+    color: orange;
+}
+.icons{
+    margin-top: 8px;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 23px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}

@@ -1,0 +1,167 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  html,body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-size: 28px;
+    background-color: black;
+    color: white;
+  
+  }
+  header{
+    width:100%;
+    height: 100vh;
+    background-image: url(images/header-image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  .logo{
+    width: 150px;
+    cursor: pointer;
+  }
+ .language_btn{
+  display: inline-flex;
+  align-items: center;
+  background-color: black;
+  border:transparent;
+  border: 1px solid white ;
+  border-radius: 4px;
+  padding: 5px 5px;
+  color: white;
+  cursor: pointer;
+ }
+ 
+ .language_btn img{
+  width: 10px;
+  margin-left: 10px;
+ }
+ .sign_in_btn{
+  background-color: red;
+  color: white;
+  padding: 5px 5px;
+  border:transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+ }
+.center_content{
+  display: grid;
+  place-content: center;
+  margin-top: 60px;
+  
+}
+.align{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.align h3{
+  font-size: 17px;
+
+}
+.align p{
+  font-size: 22px;
+  margin: 14px;
+
+}
+.align input{
+  padding: 10px 90px;
+  
+}
+.email_btn{
+  display: flex;
+  margin-top: 10px;
+}
+.great_btn{
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  border: transparent;
+  margin-left: 10px;
+}
+.container1{
+  display: flex;
+
+}
+.text_content{
+  display: grid;
+  place-content: center;
+ margin-left: 50px;
+}
+.text_content p{
+  font-size: 20px;
+ 
+}
+hr{
+  height:8px;
+  background-color: gray;
+}
+.faq{
+  text-align: center;
+  font-size: large;
+}
+.faq h1{
+  font-size:47px;
+}
+.accordian{
+  margin: 60px auto;
+  max-width: 750px;
+}
+.accordian li{
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+.accordian li label{
+  padding: 20px;
+  background-color:#303030;
+  margin-bottom: -7px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+cursor: pointer;
+position: relative;
+}
+label::after{
+  content: '+';
+font-size: 30px;
+  right: 20px;
+  position: absolute;
+  transition: transform 0.3s;
+}
+input[type="radio"]{
+  display: none;
+}
+.content{
+  max-height: 0px;
+  overflow: hidden;
+  background-color: #303030;
+  transition: 0.3s max-height,0,3s padding;
+}
+.accordian input[type="radio"]:checked+label+.content
+{
+   max-height: 600px;
+  margin: 20px 30px;
+  padding: 18px;
+ 
+}
+.accordian input[type="radio"]:checked+label::after{
+  transform: rotate(135deg);
+}
